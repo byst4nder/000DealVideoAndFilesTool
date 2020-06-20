@@ -14,5 +14,6 @@ if  __name__ == '__main__':
     # speed = 2
     dealOldFilesMode = 0
     gpu = False
-    cv1.dealV(speed, dealOldFilesMode, gpu, 1)
+    threads = 2
+    cv1.dealV(speed, dealOldFilesMode, gpu, threads)
     pass
